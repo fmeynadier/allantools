@@ -107,5 +107,10 @@ class Plot():
         """
         self.plt.show()
 
+    def close(self):
+        """Closes figure (useful for tests)
+        """
+        self.plt.close()
+
     def save(self, f):
         self.plt.savefig(f)

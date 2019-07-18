@@ -14,6 +14,7 @@ def test_plot():
     p = at.Plot(no_display=True)
     p.plot(ds)
     p.show()
-    
+    p.close()
+
 if __name__ == "__main__":
     test_plot()
